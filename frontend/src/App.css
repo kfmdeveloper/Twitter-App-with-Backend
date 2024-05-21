@@ -1,0 +1,220 @@
+.tabs:hover {
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.home {
+  border-top: 0.2px solid rgb(205, 198, 198);
+  border-collapse: collapse;
+}
+.tweet {
+  border: none;
+  outline: none;
+  background-color: rgb(85, 85, 237);
+  border-radius: 20px;
+  padding: 5px 20px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
+.active {
+  background-color: blue;
+  color: yellow !important;
+}
+.Nav-Link {
+  text-decoration: none !important;
+  color: black;
+}
+.plain1 {
+  border-top: none;
+  border-left: none;
+  border-right: 0.01px solid rgb(205, 198, 198);
+  border-bottom: 0.01px solid rgb(205, 198, 198);
+}
+.CheckIcon {
+  margin-top: 13px;
+}
+.plain2 {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 0.01px solid rgb(205, 198, 198);
+}
+.plain1:not(.active):hover {
+  background-color: rgb(214, 200, 200);
+}
+.plain2:not(.active):hover {
+  background-color: rgb(214, 200, 200);
+}
+.b1 {
+  margin-top: -1.5rem;
+}
+.profileBtn {
+  margin-left: 23rem;
+  margin-top: -3rem;
+}
+.profileUsername {
+  font-size: 14px;
+  color: gray;
+  margin-top: -5px;
+}
+.profilePara {
+  font-size: 15px;
+}
+.ProfileTabs {
+  border: 0.2px solid rgb(205, 198, 198);
+}
+.profileBtn button {
+  outline: none;
+  border: none;
+  padding: 4px 20px;
+  border: 0.2px solid black;
+  border-radius: 20px;
+}
+.profileBtn button:hover {
+  background-color: blue;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+.tweetInput {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.ProfilePosts {
+  margin-top: -5px;
+  margin-bottom: -10px;
+}
+.createTweet {
+  border: 0.2px solid rgb(205, 198, 198);
+}
+.Tweet {
+  border-top: 0.2px solid rgb(205, 198, 198);
+  border-bottom: 0.2px solid rgb(205, 198, 198);
+}
+
+.TweetText {
+  color: gray;
+  font-size: 14px;
+}
+.likes {
+  font-size: 15px;
+}
+.message {
+  margin-top: 3px;
+}
+
+.searchbar {
+  background-color: rgb(208, 194, 194);
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  height: 33px;
+  width: 100%;
+  padding: 8px;
+}
+.search {
+  outline: none;
+  border: none;
+  background-color: rgb(208, 194, 194);
+  border-radius: 20px;
+  margin-top: -4px;
+}
+
+.profilebtn {
+  outline: none;
+  border: none;
+  background-color: rgb(22, 12, 12);
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+  padding: 2px 13px;
+  margin-top: 8px;
+}
+.follow p {
+  font-size: 13px;
+}
+.followp {
+  margin-top: -20px;
+}
+.WhotoFollow {
+  border-radius: 5px;
+}
+.back {
+  cursor: pointer;
+  color: black;
+}
+.SignUp {
+  height: 100vh;
+  width: 100vw;
+}
+.SiggnUp {
+  height: 28rem;
+  width: 20rem;
+  margin-left: 55px;
+}
+.SingTop {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.container {
+  height: 33rem !important;
+}
+.fields2 {
+  width: 270px;
+  padding: 8px 7px;
+  outline: none;
+  background-color: rgb(254, 254, 254);
+  border: none;
+}
+.picon {
+  cursor: pointer;
+}
+.ErrorIcon {
+  margin-left: 14.5rem;
+}
+
+.fields input {
+  width: 270px;
+  outline: none;
+  background-color: rgb(254, 254, 254);
+  border: none;
+  background-color: transparent;
+}
+.btnSign {
+  padding: 6px 100px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
+.btnSign2 {
+  padding: 6px 100px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: red;
+}
+.btnSign2:hover {
+  background-color: blue;
+  color: white;
+  transition: 0.8s;
+}
+.btnSign:hover {
+  background-color: blue;
+  color: white;
+  transition: 0.7s;
+}
+.loggin {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: rgb(255, 15, 15);
+}
+.loggin2 {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: rgb(255, 15, 15);
+}
